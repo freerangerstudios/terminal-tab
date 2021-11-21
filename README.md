@@ -1,8 +1,9 @@
-# HomeTerm
+# Terminal-tab
 
-A homepage disguised as a toy terminal!
+A homepage disguised as a terminal!
+This is a customized version of the project ![HomeTerm](https://github.com/Jaredk3nt/HomeTerm), go check it out!
 
-![HomeTerm](/media/HomeTerm.png)
+## Features
 
 - Dynamic prompt to interact with bookmarks
 - Built in Google search
@@ -19,13 +20,13 @@ Here are the currently available commands that can be run on the terminal.
 | `ls`     | `ls [<path to dir>]`              | List children of current working directory or given directory.                                                                                                                       |
 | `tree`   | `tree [<path to dir>]`            | Lists all children of current working directory or given directory in tree format                                                                                                    |
 | `cd`     | `cd [<path>]`                     | Move into given directory. If no path given move to root.                                                                                                                            |
-| `open`   | `open <path to link>`             | Open a link in a new tab.                                                                                                                                                            |
+| `open` or `o`   | `open <path to link>`             | Open a link in a new tab.                                                                                                                                                            |
 | `touch`  | `touch <path to link> <url>`      | Create a new link                                                                                                                                                                    |
 | `mkdir`  | `mkdir <path to dir>`             | Create a new directory                                                                                                                                                               |
 | `rm`     | `rm <path to link>`               | Delete link                                                                                                                                                                          |
 | `rmdir`  | `rmdir <path to dir>`             | Delete dir and all contents                                                                                                                                                          |
-| `search` | `search [-e] ["<search string>"]` | Search with given search string (Must be in quotes to capture multiple words). Supply `-e` with a search URL or pre-defined engine (`ddg`, `google`, `bing`) to change search engine |
-| `clear`  | `clear`                           | Clear the terminal of past commands.                                                                                                                                                 |
+| `search` or `s` | `search [-e] ["<search string>"]` | Search with given search string (Must be in quotes to capture multiple words). Supply `-e` with a search URL or pre-defined engine (`ddg`, `google`, `bing`) to change search engine |
+| `clear` or `cls`  | `clear`                           | Clear the terminal of past commands.                                                                                                                                                 |
 | `theme`  | `theme [<theme name>]`            | Change theme.                                                                                                                                                                        |
 | `mv`     | `mv <source path> <target path>`  | "Move" file or directory. Allows for renaming/moving resources within the file tree.                                                                                                 |
 | `edit`   | `edit <link path> <url>`          | Change the URL value for a given link.                                                                                                                                               |
@@ -33,9 +34,7 @@ Here are the currently available commands that can be run on the terminal.
 
 ## Theming
 
-![Terminal Themes](/media/theming.png)
-
-TermForm supports custom terminal themeing and some cool built-in themes.
+Terminal-tab supports custom terminal themeing and some cool built-in themes (currently just the HomeTerm ones, more are coming).
 
 - Dark & Light Default
 - Grey scale Dark
@@ -60,15 +59,4 @@ Your TermPage file structure is stored in your browsers LocalStorage, if you enc
 
 ## Roadmap
 
-### Features
-
-- ~~`edit` command for changing urls~~
-- ~~`mv` to rename dir and link names~~
-- `export` and `import` for sharing your file structure with other machines
-- ~~Tree view for `ls`, and url view for `ls`~~
-- ~~Add flags for search to change search engine~~
-- Tab complete for commands and paths
-
-### Themes
-
-- ~~NightOwl~~
+A lot. Truly, a lot.
